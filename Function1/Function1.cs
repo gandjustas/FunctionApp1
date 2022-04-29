@@ -18,6 +18,12 @@ using Microsoft.Xrm.Sdk.Messages;
 
 namespace Company.Function
 {
+    internal class Request
+    {
+        public DateTime StartOn { get; set; }
+        public DateTime EndOn { get; set; }
+    }
+
     public static class Function1
     {
         private const string FieldStart = "msdyn_start";

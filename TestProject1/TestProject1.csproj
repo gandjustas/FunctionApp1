@@ -16,7 +16,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Function1\FunctionApp1.csproj" />
-    <ProjectReference Include="..\FunctionApp1.csproj" />
   </ItemGroup>
 
 </Project>
